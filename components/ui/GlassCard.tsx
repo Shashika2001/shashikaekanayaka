@@ -14,7 +14,7 @@ interface GlassCardProps {
 export default function GlassCard({
   children,
   className = "",
-  glowColor = "rgba(99, 102, 241, 0.3)",
+  glowColor = "rgba(34, 197, 94, 0.3)",
   hoverScale = true,
   spotlight = true,
 }: GlassCardProps) {

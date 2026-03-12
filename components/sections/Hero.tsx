@@ -57,7 +57,7 @@ export default function Hero() {
 
         {/* Floating geometric shapes */}
         <motion.div
-          className="absolute top-1/4 left-1/4 w-2 h-2 bg-cyan-400 rounded-full"
+          className="absolute top-1/4 left-1/4 w-2 h-2 bg-green-400 rounded-full"
           animate={{
             y: [0, -30, 0],
             opacity: [0.5, 1, 0.5],

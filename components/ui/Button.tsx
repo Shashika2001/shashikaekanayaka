@@ -32,7 +32,7 @@ export default function Button({
   const baseStyles = "inline-flex items-center justify-center font-semibold transition-all duration-300 rounded-xl";
   
   const variants = {
-    primary: "bg-gradient-to-r from-primary to-secondary text-white hover:shadow-[0_0_30px_rgba(99,102,241,0.4)] hover:-translate-y-1",
+    primary: "bg-gradient-to-r from-primary to-secondary text-white hover:shadow-[0_0_30px_rgba(34,197,94,0.45)] hover:-translate-y-1",
     outline: "border-2 border-primary/50 text-foreground hover:border-primary hover:bg-primary/10 hover:-translate-y-1",
     ghost: "text-foreground hover:bg-white/5 hover:text-primary",
   };

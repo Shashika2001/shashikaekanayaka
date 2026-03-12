@@ -43,7 +43,7 @@ export default function AnimatedBackground() {
       <motion.div
         className="absolute w-[600px] h-[600px] rounded-full blur-[120px]"
         style={{
-          background: "radial-gradient(circle, rgba(99, 102, 241, 0.15) 0%, transparent 70%)",
+          background: "radial-gradient(circle, rgba(34, 197, 94, 0.08) 0%, transparent 70%)",
           top: "10%",
           left: "10%",
         }}
@@ -61,7 +61,7 @@ export default function AnimatedBackground() {
       <motion.div
         className="absolute w-[500px] h-[500px] rounded-full blur-[100px]"
         style={{
-          background: "radial-gradient(circle, rgba(139, 92, 246, 0.12) 0%, transparent 70%)",
+          background: "radial-gradient(circle, rgba(22, 163, 74, 0.06) 0%, transparent 70%)",
           top: "50%",
           right: "10%",
         }}
@@ -79,7 +79,7 @@ export default function AnimatedBackground() {
       <motion.div
         className="absolute w-[400px] h-[400px] rounded-full blur-[80px]"
         style={{
-          background: "radial-gradient(circle, rgba(6, 182, 212, 0.1) 0%, transparent 70%)",
+          background: "radial-gradient(circle, rgba(74, 222, 128, 0.04) 0%, transparent 70%)",
           bottom: "10%",
           left: "30%",
         }}
@@ -97,7 +97,7 @@ export default function AnimatedBackground() {
       {/* Scan line effect */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
-          className="absolute w-full h-[2px] bg-gradient-to-r from-transparent via-cyan-500/20 to-transparent"
+          className="absolute w-full h-[2px] bg-gradient-to-r from-transparent via-green-500/20 to-transparent"
           initial={{ y: "-100%" }}
           animate={{ y: "100vh" }}
           transition={{
