@@ -121,7 +121,7 @@ export default function Leadership() {
                     <GlassCard className="p-5 group">
                       <div className="flex gap-4">
                         {/* Icon */}
-                        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-accent/20 to-cyan-500/20 flex items-center justify-center shrink-0 group-hover:from-accent/30 group-hover:to-cyan-500/30 transition-all">
+                        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-accent/20 to-secondary/20 flex items-center justify-center shrink-0 group-hover:from-accent/30 group-hover:to-secondary/30 transition-all">
                           <IconComponent className="w-6 h-6 text-accent" />
                         </div>
 
